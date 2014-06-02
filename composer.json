@@ -1,0 +1,25 @@
+{
+    "name": "fieg/knn",
+    "license": "MIT",
+    "description": "Implementation of a k-Nearest Neighbors algorithm in PHP",
+    "type": "library",
+    "keywords": ["artificial", "intelligence", "k-nearest", "neighbors", "algorithm"],
+    "homepage": "https://github.com/fieg/knn",
+    "authors": [
+      {
+        "name": "fieg",
+        "email": "jeroen@webcreate.nl"
+      }
+    ],
+    "minimum-stability": "stable",
+    "require": {
+    },
+    "require-dev": {
+        "phpunit/phpunit": "~4.1"
+    },
+    "autoload": {
+      "psr-4": {
+        "Fieg\\kNN\\": "src/Fieg/kNN/"
+      }
+    }
+}
